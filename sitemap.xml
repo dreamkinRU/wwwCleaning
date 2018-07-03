@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
@@ -12,4 +13,20 @@
 <changefreq>weekly</changefreq>
 <priority>0.7</priority>
 </url>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://xn----etbhjakfcejhbfl7bf.xn--p1ai/</loc>
+<lastmod>2018-06-13</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://xn----etbhjakfcejhbfl7bf.xn--p1ai/uborka-kvartir-smolensk.html</loc>
+<lastmod>2018-06-13</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.7</priority>
+</url>
+>>>>>>> 1458eaeb4ce9c690206143ec1ab2be01b064200d
 </urlset>

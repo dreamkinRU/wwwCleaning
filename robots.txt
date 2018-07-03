@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Sitemap: https://xn----etbhjakfcejhbfl7bf.xn--p1ai/sitemap.xml
 User-Agent: *
 Host: https://xn----etbhjakfcejhbfl7bf.xn--p1ai
+=======
+Sitemap: https://xn----etbhjakfcejhbfl7bf.xn--p1ai/sitemap.xml
+User-Agent: *
+Host: https://xn----etbhjakfcejhbfl7bf.xn--p1ai
+>>>>>>> 1458eaeb4ce9c690206143ec1ab2be01b064200d

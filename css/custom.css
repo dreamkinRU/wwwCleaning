@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .home-carousel {
   position: relative;
@@ -189,4 +190,197 @@ div.phonefloat.with-transition {
 
 .owl-carousel .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page.active span {
   background: #F00;
+=======
+
+.home-carousel {
+  position: relative;
+  background: url('../img/ban-bg.jpg') center center repeat;
+  background-size: cover;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.home-carousel h1 {
+  text-shadow: 2px 2px #000;
+}
+.heading h2 {
+  text-shadow: 1px 1px white;
+}
+.home-carousel p {
+  text-shadow: 1px 1px #000;
+}
+.home-carousel .dark-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #38a7bb;
+  opacity: 0.3;
+  filter: alpha(opacity=50);
+}
+.bar.background-home {
+  background: url('../img/house-bg.jpg') center center repeat;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
+.bar.background-office {
+  background: url('../img/office-bg.jpg') center center repeat;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
+.bar.background-terr {
+  background: url('../img/terr-bg.jpg') center center repeat;
+  border-top: solid 1px #999999;
+  border-bottom: solid 1px #999999;
+}
+a i.fa, button i.fa {
+  margin: 0 0px;
+}
+.icon {
+  font-size: 50px;
+}
+.ul-icons li {
+  list-style-type: square;
+  line-height: 15px;
+  margin-left: 8px;
+}
+
+/* Больше шрифт в шапке для мобильных */
+/* #top p {
+  font-size: 1em;
+}
+
+.col-xs-12.contact{
+  text-align: center;
+}
+*/
+p.lead {
+  color: black;
+}
+
+/* Темнее цвет текста в блоках услуг */
+.navbar ul.dropdown-menu li a {
+  color: black;
+}
+.navbar .yamm-content ul li a {
+  color: #666;
+}
+
+/* Списки с разными межстрочными интервалами */
+/* Очень много перечислений, максимально сжатый по высоте блок */
+ul.list-xl {
+  padding-left: 7px;
+  list-style: initial;
+  line-height: 19px;
+  color: #444;
+}
+/* Средне перечислений, немного сжатый блок */
+ul.list-ms {
+  padding-left: 18px;
+  list-style: initial;
+  padding-right: 14px;
+  line-height: 22px;
+  color: #444;
+}
+/* Мало перечислений, разжатый по высоте блок */
+ul.list-sm {
+  padding-left: 18px;
+  list-style: initial;
+  padding-right: 16px;
+  line-height: 25px;
+  color: #444;
+}
+/* Средне текста, немного разжатый блок */
+div.text-ms {
+  color: #444;
+  margin-bottom: 40px;
+  line-height: 1.5em;
+}
+
+/* Название услуги в блоке выровнено по левому краюы */
+.name-picture {
+  text-align: left !important;
+}
+
+/* костыль чтобы не прыгала шапка при промотке */
+.navbar-affixed-top {
+  top: 0px;
+}
+
+
+/* Темнее цвет текста в блоках услуг */
+.p {
+  color: #8888888;
+}
+
+/* прозрачность 10% подложки под услугами */
+.testimonials .item {
+  opacity: 0.9; 
+}
+
+/* по 5 изображений в ряд в подвале */
+#footer .photostream div {
+    width: 20%;
+}
+
+/* кнопка промотки наверх */
+div.scrollup {
+  position: fixed; /* фиксированная позиция */
+  color: #fff; /* цвет текста */
+  background-color: #38a7bb; /* цвет заднего фона */
+  right: 20px; /* расстояние от правого края */
+  bottom: 0px; /* расстояние от нижнего края */
+  padding: 4px 10px; /* отступы до содержимого блока */
+  font-size: 20px; /* размер шрифта (иконки) */
+  border-top-left-radius: 4px; /* скругление верхнего левого угла */
+  border-top-right-radius: 4px; /* скругление верхнего правого угла */
+  cursor: pointer; /* форма курсора */
+  display: none; /* не отображать элемент */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+}
+div.scrollup:hover {
+  background-color: #fff; /* цвет заднего фона при наведении */
+  color: #38a7bb; /* цвет текста */
+}/* ////кнопка промотки наверх */
+
+/* кнопка телефон */
+div.phonefloat {
+  /*display: none; *//* не отображать элемент */
+  position: fixed; /* фиксированная позиция */
+  color: #f0ad4e; /* цвет трубки */
+  /* background-color: #286090; */ /* цвет фона трубки (прозрачный - если не указан) */
+  right: 100px; /* расстояние от правого края экрана */
+  bottom: 50px; /* расстояние от нижнего края  экрана */
+  padding: 0px 15px; /* отступы до содержимого блока */
+  font-size: 50px; /* размер трубки */
+  border-radius: 40px;
+  /* скругление краев (если не используется border-radius) */
+  /*border-top-left-radius: 5px; 
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;*/
+  border: solid 2px #f0ad4e; /* рамка вокруг трубки */
+  cursor: pointer; /* форма курсора при наведении */
+  text-align: center; /*выравнивание содержимого элемента по центру */
+  transition: none;
+}
+div.phonefloat:hover {
+  /* background-color: #fff; */ /* цвет фона трубки при наведении */
+  color: #38a7bb;  /* #f0ad4e оранжевый цвет значка при наведении */
+  border: solid 2px #38a7bb; /* #f0ad4e оранжевая рамка вокруг трубки */
+} 
+div.phonefloat.with-transition {
+  transition: 1s;
+}/* ////кнопка телефон */
+
+#heading-breadcrumbs {
+  background: url('../img/backgnd.jpg') center center repeat;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.owl-carousel .owl-controls .owl-page.active span, .owl-theme .owl-controls .owl-page.active span {
+  background: #F00;
+>>>>>>> 1458eaeb4ce9c690206143ec1ab2be01b064200d
 }
